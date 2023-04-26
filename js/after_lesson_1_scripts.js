@@ -5,8 +5,8 @@ $(document).ready(function() {
         if (i == 0) {
             i = 1;
             var elem = document.getElementsByClassName("progress-bar")[0];
-            var width = 104;
-            var id = setInterval(frame, 104);
+            var width = 124;
+            var id = setInterval(frame, width);
 
             function frame() {
                 if (width >= 140) {
