@@ -8,6 +8,14 @@
     background: #A8E2F6;
 }
 
+.phone2 {
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    width: 844px;
+    height: 390px;
+}
+
 .left-cloud {
     position: absolute;
     width: 737px;
@@ -38,6 +46,225 @@
     height: 293px;
     left: 731px;
     top: 30px;
+}
+
+.sidebar-lessons {
+    position: absolute;
+    width: 92px;
+    height: 89px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.sidebar-band {
+    position: absolute;
+    width: 92px;
+    height: 89px;
+    top: 102px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.sidebar-leaderboard {
+    position: absolute;
+    width: 92px;
+    height: 89px;
+    top: 204px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    cursor: pointer;
+}
+
+.selected {
+    background: #F3F3F3;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    cursor: default;
+}
+
+.map {
+    position: absolute;
+    left: 23px;
+    top: 15px;
+}
+
+.horn {
+    position: absolute;
+    left: 22px;
+    top: 14px;
+}
+
+.leaderboard {
+    position: absolute;
+    left: 25px;
+    top: 15px;
+}
+
+.text {
+    font-family: 'Manrope';
+    font-size: 14px;
+    font-weight: bold;
+
+    color: #000000;
+}
+
+.lessons-text {
+    position: absolute;
+    width: 57px;
+    height: 19px;
+    left: 18px;
+    top: 50px;
+}
+
+.band-text {
+    position: absolute;
+    width: 57px;
+    height: 19px;
+    left: 29px;
+    top: 52px;
+}
+
+.leaderboard-text {
+    position: absolute;
+    width: 57px;
+    height: 19px;
+    left: 4px;
+    top: 51px;
+}
+
+.profile {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 80px;
+    height: 80px;
+
+    background: #FFF2B3;
+    border: 3px solid #FDC201;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.profile-pic {
+    position: absolute;
+    left: 11px;
+    top: 11px;
+}
+
+.inventory {
+    position: absolute;
+    width: 41px;
+    height: 41px;
+    top: 60px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.chest {
+    position: absolute;
+    left: 1.08px;
+    top: 2.16px;
+}
+
+.inventory-items {
+    position: absolute;
+    left: 18px;
+    top: 135px;
+}
+
+.hearts {
+    position: absolute;
+    width: 60px;
+    height: 24px;
+    left: 9px;
+    top: 6px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.streaks {
+    position: absolute;
+    width: 60px;
+    height: 24px;
+    left: 9px;
+    top: 44px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.heart {
+    position: absolute;
+    left: -9px;
+    top: -6px;
+}
+
+.streak {
+    position: absolute;
+    left: -5px;
+    top: -6px;
+}
+
+.inventory-text {
+    position: absolute;
+    font-size: 16px;
+    left: 35px;
+    top: -10px;
+}
+
+.settings {
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    left: 20px;
+    top: 279px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.question {
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    left: 54px;
+    top: 279px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.settings-pic {
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+
+.question-pic {
+    position: absolute;
+    top: 4px;
+    left: 4px;
 }
 
 .island-1 {
@@ -103,6 +330,7 @@
     height: 27px;
     left: 163px;
     top: 34px;
+    cursor: pointer;
 }
 
 .lesson-overlay {
@@ -165,4 +393,251 @@
     left: 270px;
     top: 183px;
     cursor: pointer;
+}
+
+.bear-cello {
+    position: absolute;
+    left: 42px;
+    top: 174px;
+}
+
+.music-notes {
+    position: absolute;
+    left: 57px;
+    top: 87px;
+}
+
+.great-job-text {
+    position: absolute;
+    left: 337px;
+    top: 10px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #4868D4;
+}
+
+.xp-earned {
+    position: absolute;
+    width: 174.67px;
+    height: 52px;
+    left: 335px;
+    top: 115px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.xp-text {
+    position: absolute;
+    left: 6.67%;
+    right: -246.67%;
+    top: 10.27%;
+    bottom: 106.73%;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+
+    color: #5E5E5E;
+}
+
+.additional-xp-text {
+    position: absolute;
+    left: 34.67%;
+    right: -246.67%;;
+    top: 15.27%;
+    bottom: 106.73%;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 9px;
+    line-height: 12px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #5E5E5E;
+}
+
+.progress-bar-base {
+    position: absolute;
+    width: 152px;
+    height: 15px;
+    left: 11px;
+    top: 28px;
+
+    background: #EAEAEA;
+    border-radius: 20px;
+}
+
+.progress-bar {
+    position: absolute;
+    width: 104px;
+    height: 15px;
+    left: 11px;
+    top: 28px;
+
+    background: linear-gradient(92.35deg, #96DE8A -19.85%, #52C53F 90.5%);
+    border-radius: 20px;
+}
+
+.level-rewards-text {
+    position: absolute;
+    width: 178px;
+    height: 31px;
+    left: 343px;
+    top: 182px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #444444;
+}
+
+.diamond-box {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 57px;
+    height: 57px;
+    left: 394px;
+    top: 240px;
+    
+    background: #D9FFFF;
+    border: 1px solid #79D3D3;
+    border-radius: 50px;
+}
+
+.diamond {
+    position: absolute;
+    left: 10px;
+    top: 12px;
+}
+
+.diamond-text {
+    position: absolute;
+    width: 86px;
+    height: 19px;
+    left: 380px;
+    top: 294.26px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #5E5E5E;
+}
+
+.next-button {
+    position: absolute;
+    width: 98px;
+    height: 37.51px;
+    left: 697px;
+    top: 319.49px;
+
+    background: linear-gradient(97.81deg, #4868D4 -0.16%, #839AE9 107.18%);
+    box-shadow: 1px 2px 8px 1px #CED7F5;
+    border-radius: 18.7531px;
+    cursor: pointer;
+}
+
+.next-text {
+    position: absolute;
+    width: 55.65px;
+    height: 19.36px;
+    left: 27px;
+    top: -4px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.skills {
+    position: absolute;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #444444;
+}
+
+.skills-mastered {
+    width: 194px;
+    height: 36px;
+    left: 284px;
+    top: 213px;
+}
+
+.skills-learned {
+    width: 180px;
+    height: 36px;
+    left: 285px;
+    top: 253px;
+}
+
+.skills-topic {
+    position: absolute;
+
+    font-family: 'Nunito';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #444444;
+}
+
+.skills-topic-1 {
+    width: 168px;
+    height: 36px;
+    left: 445px;
+    top: 213px;
+}
+
+.skills-topic-2 {
+    width: 177px;
+    height: 36px;
+    left: 430px;
+    top: 253px;
 }
