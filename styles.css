@@ -607,3 +607,12 @@
     left: 430px;
     top: 253px;
 }
+
+.streak-circle-1 {
+    position: absolute;
+    left: 346px;
+    top: 119px;
+    border-radius: 50%;
+
+    background: #FAF1E8;
+}
