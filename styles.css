@@ -1,0 +1,168 @@
+.phone {
+    overflow: hidden;
+    margin: auto;
+    position: relative;
+    width: 844px;
+    height: 390px;
+
+    background: #A8E2F6;
+}
+
+.left-cloud {
+    position: absolute;
+    width: 737px;
+    height: 609px;
+    left: -554px;
+    top: -96px;
+}
+
+.right-cloud {
+    position: absolute;
+    width: 737px;
+    height: 609px;
+    left: 653px;
+    top: -96px;
+}
+
+.left-sidebar {
+    position: absolute;
+    width: 87px;
+    height: 308px;
+    left: 45px;
+    top: 34px;
+}
+
+.right-sidebar-lessons {
+    position: absolute;
+    width: 92px;
+    height: 293px;
+    left: 731px;
+    top: 30px;
+}
+
+.island-1 {
+    position: absolute;
+    width: 207px;
+    height: 205.5px;
+    left: 184px;
+    top: 170px;
+}
+
+.dash-1 {
+    position: absolute;
+    width: 115.77px;
+    height: 45.93px;
+    left: 395.66px;
+    top: 261.43px;
+}
+
+.island-2 {
+    position: absolute;
+    width: 213px;
+    height: 258.5px;
+    left: 442px;
+    top: 34px;
+}
+
+.ed {
+    position: absolute;
+    width: 90px;
+    height: 77.05px;
+    left: 534px;
+    top: -2px;
+}
+
+#lesson-button {
+    position: absolute;
+    width: 61px;
+    height: 61px;
+    left: 551px;
+    top: 176px;
+    cursor: pointer;
+}
+
+.dash-2 {
+    position: absolute;
+    width: 65.96px;
+    height: 31.52px;
+    left: 367.73px;
+    top: 119.17px;
+}
+
+.island-3 {
+    position: absolute;
+    width: 246.5px;
+    height: 208.5px;
+    left: 179px;
+    top: -83px;
+}
+
+.top-bar {
+    position: absolute;
+    width: 53px;
+    height: 27px;
+    left: 163px;
+    top: 34px;
+}
+
+.lesson-overlay {
+    position: relative;
+    width: 531px;
+    height: 294px;
+    left: 156.5px;
+    top: 48px;
+}
+
+.box {
+    position: absolute;
+    width: 528px;
+    height: 269px;
+    left: 0px;
+    top: 18px;
+
+    background: #E9F2CC;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 41px;
+}
+
+.lesson-top {
+    position: absolute;
+    width: 526px;
+    height: 90px;
+    left: 2px;
+    top: 0px;
+}
+
+.lesson-outline-bar {
+    position: absolute;
+    width: 438px;
+    height: 60px;
+    left: 45px;
+    top: 107px;
+}
+
+.x {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 21px;
+    top: 50px;
+    cursor: pointer;
+}
+
+.lesson-rewards {
+    position: absolute;
+    width: 177px;
+    height: 84px;
+    left: 80px;
+    top: 178px;
+}
+
+.begin-lesson {
+    position: absolute;
+    width: 179px;
+    height: 73px;
+    left: 270px;
+    top: 183px;
+    cursor: pointer;
+}
