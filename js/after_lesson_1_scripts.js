@@ -1,12 +1,26 @@
 $(document).ready(function() {
 
-    function changeProgressBar() {     
-        $(".additional-xp-text").remove();
-        $(".xp-text").text("276 XP");
-        $(".progress-bar").width("134px");
-      }
+    function changeProgressBar() {
+        var i = 0;
+        if (i == 0) {
+            i = 1;
+            var elem = document.getElementsByClassName("progress-bar")[0];
+            var width = 104;
+            var id = setInterval(frame, 104);
 
-    function showSkills() {     
+            function frame() {
+                if (width >= 140) {
+                    clearInterval(id);
+                    i = 0;
+                } else {
+                    width++;
+                    elem.style.width = width + 'px';
+                }
+            }
+        }
+    }
+
+    function showSkills() {
         $(".level-rewards-text").remove();
         $(".diamond-box").remove();
         $(".diamond-text").remove();
@@ -16,12 +30,12 @@ $(document).ready(function() {
             <h1 class="skills skills-learned">Skills Learned:</h1>
             <h1 class="skills-topic skills-topic-2">Key Signatures</h1>  
         `);
-        $(".next-button").click(function(){
+        $(".next-button").click(function() {
             location.href = 'after-lesson-2.html';
         });
-      }
+    }
 
-    function showRewards() {     
+    function showRewards() {
         $(".phone2").append(`
             <h1 class="level-rewards-text">Level Rewards:</h1>
             <div class="diamond-box">
@@ -32,11 +46,11 @@ $(document).ready(function() {
                 <h1 class="next-text">Next</h1>
             </div>
         `);
-        $(".next-button").click(function(){
+        $(".next-button").click(function() {
             showSkills();
         });
-      }
-  
+    }
+
     setTimeout(changeProgressBar, 1000);
     setTimeout(showRewards, 2000);
-  });
+});
