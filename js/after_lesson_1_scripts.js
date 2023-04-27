@@ -1,6 +1,8 @@
 $(document).ready(function() {
 
     function changeProgressBar() {
+        $(".additional-xp-text").remove();
+        $(".xp-text").text("276 XP");
         var i = 0;
         if (i == 0) {
             i = 1;

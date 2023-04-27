@@ -208,6 +208,8 @@
 
 .streak {
     position: absolute;
+    width: 26px;
+    height: 35.47px;
     left: -5px;
     top: -6px;
 }
@@ -610,9 +612,190 @@
 
 .streak-circle-1 {
     position: absolute;
+    width: 151px;
+    height: 151px;
     left: 346px;
     top: 119px;
     border-radius: 50%;
 
     background: #FAF1E8;
+}
+
+.streak-circle-progress-bar {
+    position: absolute;
+    width: 151px;
+    height: 151px;
+    border-radius: 50%;
+
+    background-image:
+        /* 20% = 18deg = 90 - ( 360 * .2 ) */
+        linear-gradient(90deg, transparent 50%, #E5A162 50%),
+        linear-gradient(18deg, #E5A162 50%, transparent 50%);
+}
+
+.streak-circle-2 {
+    position: absolute;
+    width: 121.72px;
+    height: 121.72px;
+    left: 14.64px;
+    top: 14.64px;
+    border-radius: 50%;
+
+    background: white;
+}
+
+.streak-in-circle {
+    position: absolute;
+    left: 33.04px;
+    top: 11.85px;
+}
+
+.streak-in-circle-text {
+    position: absolute;
+    left: 30%;
+    right: 30%;
+    top: 74.48%;
+    bottom: 17.58%;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #DC756D;
+}
+
+.streak-message {
+    position: absolute;
+    left: 219px;
+    top: 38px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #4868D4;
+}
+
+.star-1 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 266px;
+    top: 190px;
+}
+
+.star-2 {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 239.18px;
+    top: 236.98px;
+    
+    transform: rotate(-15deg);
+}
+
+.star-3 {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    left: 266px;
+    top: 260.5px;
+    
+    transform: rotate(-30deg);
+}
+
+.star-4 {
+    position: absolute;
+    width: 79px;
+    height: 79px;
+    left: 521px;
+    top: 185px;
+    
+    transform: rotate(-60deg);
+}
+
+.star-5 {
+    position: absolute;
+    width: 53px;
+    height: 53px;
+    left: 521px;
+    top: 270px;
+    
+    transform: rotate(-80deg);
+}
+
+.band-message-1 {
+    position: absolute;
+    left: 135px;
+    top: 38px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #4868D4;
+}
+
+.band-message-1-orange {
+    position: absolute;
+    left: 620px;
+    top: 38px;
+
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    background: linear-gradient(95.73deg, #FFD54D 76.35%, #F48F31 99.26%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.timmy {
+    position: absolute;
+    width: 108.85px;
+    height: 160px;
+    left: 244px;
+    top: 150px;
+}
+
+.ariel {
+    position: absolute;
+    width: 88.42px;
+    height: 137.87px;
+    left: 384.85px;
+    top: 172px;
+}
+
+.gus {
+    position: absolute;
+    width: 95px;
+    height: 168.18px;
+    left: 505px;
+    top: 141px;
+}
+
+.gus-pic {
+    width: 95px;
+    height: 137.36px;
 }
