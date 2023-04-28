@@ -265,6 +265,24 @@
     top: 170px;
 }
 
+.rhythm-1 {
+    position: absolute;
+    left: 32px;
+    top: 75px;
+}
+
+.staff-1 {
+    position: absolute;
+    left: 104px;
+    top: 96px;
+}
+
+.harmony-1 {
+    position: absolute;
+    left: 104px;
+    top: 21px;
+}
+
 .dash-1 {
     position: absolute;
     width: 115.77px;
@@ -281,6 +299,24 @@
     top: 34px;
 }
 
+.form {
+    position: absolute;
+    left: 36.5px;
+    top: 113px;
+}
+
+.rhythm-2 {
+    position: absolute;
+    left: 37px;
+    top: 41px;
+}
+
+.harmony-2 {
+    position: absolute;
+    left: 113px;
+    top:72px;
+}
+
 .ed {
     position: absolute;
     width: 90px;
@@ -293,8 +329,8 @@
     position: absolute;
     width: 61px;
     height: 61px;
-    left: 551px;
-    top: 176px;
+    left: 113px;
+    top: 142px;
     cursor: pointer;
 }
 
@@ -312,6 +348,12 @@
     height: 208.5px;
     left: 179px;
     top: -83px;
+}
+
+.lock {
+    position: absolute;
+    left: 96px;
+    top: 58px;
 }
 
 .top-bar {
