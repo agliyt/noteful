@@ -1,4 +1,4 @@
-$("#lesson-button").click(function(){
+$("#lesson-button").click(function() {
     $(".phone").append(`
         <div class="lesson-overlay">
             <div class="box">
@@ -42,10 +42,15 @@ $("#lesson-button").click(function(){
             </div>
         </div>
     `);
-    $(".x").click(function(){
+    $(".x").click(function() {
         $(".lesson-overlay").remove();
     });
-    $(".begin-lesson").click(function(){
-        location.href = 'lesson_placeholder.html';
+    $(".begin-lesson").click(function() {
+        $(".lesson-overlay").remove();
+        $(".left-cloud").addClass("move");
+        $(".right-cloud").addClass("move");
+        setTimeout(() => {
+            location.href = 'lesson_placeholder.html';
+        }, 1000);
     });
 });
