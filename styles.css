@@ -19,7 +19,7 @@
     position: absolute;
     width: 737px;
     height: 609px;
-    left: -554px;
+    left: -241px;
     top: -96px;
 }
 
@@ -27,7 +27,7 @@
     position: absolute;
     width: 737px;
     height: 609px;
-    left: 653px;
+    left: 388px;
     top: -96px;
 }
 
@@ -1167,11 +1167,19 @@
 }
 
 .left-cloud.move {
-    animation: move-left-to-right 1s linear forwards;
+    animation: move-left-to-right 1s ease-out forwards;
+}
+
+.left-cloud.move-out {
+    animation: move-right-to-left 1s ease-out forwards;
 }
 
 .right-cloud.move {
-    animation: move-right-to-left 1s linear forwards;
+    animation: move-right-to-left 1s ease-out forwards;
+}
+
+.right-cloud.move-out {
+    animation: move-left-to-right 1s ease-out forwards;
 }
 
 @keyframes move-left-to-right {
@@ -1339,4 +1347,28 @@
 
     background: linear-gradient(91.14deg, #E6EBFE 0.85%, #F2F4FE 47.88%, rgba(255, 255, 255, 0) 98.91%);
     transform: rotate(-180deg);
+}
+
+.band-bear {
+    position: absolute;
+    width: 130px;
+    height: 194px;
+    left: 241px;
+    top: 88px;
+}
+
+.band-gus {
+    position: absolute;
+    width: 125px;
+    height: 180.74px;
+    left: 357px;
+    top: 115px;
+}
+
+.band-elephant {
+    position: absolute;
+    width: 164px;
+    height: 190px;
+    left: 475px;
+    top: 88px;
 }
