@@ -221,6 +221,13 @@
     top: -10px;
 }
 
+.streak-text {
+    position: absolute;
+    font-size: 16px;
+    left: 35px;
+    top: -10px;
+}
+
 .settings {
     position: absolute;
     width: 29px;

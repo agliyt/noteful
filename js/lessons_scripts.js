@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+    if (sessionStorage.getItem("completed") == "true") {
+        $(".streak-text").text("5");
+    }
+
     $(".left-cloud").addClass("move-out");
     $(".right-cloud").addClass("move-out");
     setTimeout(() => {
