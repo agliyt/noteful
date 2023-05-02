@@ -3,13 +3,11 @@ $(document).ready(function() {
     $(".left-cloud").addClass("move-out");
     $(".right-cloud").addClass("move-out");
     setTimeout(() => {
+        $(".left-cloud").removeClass("move-out");
+        $(".left-cloud").css("left", "-554px");
         $(".right-cloud").removeClass("move-out");
         $(".right-cloud").css("left", "653px");
     }, 550);
-    setTimeout(() => {
-        $(".left-cloud").removeClass("move-out");
-        $(".left-cloud").css("left", "-554px");
-    }, 650);
 
     $("#lesson-button").click(function() {
         $(".phone").append(`
