@@ -66,7 +66,7 @@ $(document).ready(function() {
             $(".right-cloud").addClass("move");
             setTimeout(() => {
                 location.href = 'lesson_placeholder.html';
-            }, 1000);
+            }, 600);
         });
     });
 
@@ -77,7 +77,7 @@ $(document).ready(function() {
         $(".right-cloud").addClass("move");
         setTimeout(() => {
             location.href = 'band.html';
-        }, 1000);
+        }, 600);
     });
 
 });
