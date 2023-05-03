@@ -2,6 +2,8 @@ $(document).ready(function() {
 
     if (sessionStorage.getItem("completed") == "true") {
         $(".streak-text").text("5");
+    } else {
+        $(".streak-text").text("4");
     }
 
     $(".left-cloud").addClass("move-out");

@@ -1,7 +1,11 @@
 $(document).ready(function() {
 
     if (sessionStorage.getItem("completed") == "true") {
-        $(".phone2").append('<img class="band-gus" src="assets/gus.png"/>');
+        $(".phone2").append(`
+            <img class="band-bear" src="assets/bear-bass-band.png"/>
+            <img class="band-gus" src="assets/gus.png"/>
+            <img class="band-elephant" src="assets/elephant-drums-band.png"/>
+        `);
         $(".streak-text").text("5");
         $(".phone2").after(`
             <div>
@@ -11,6 +15,11 @@ $(document).ready(function() {
             </div>
         `)
     } else {
+        $(".phone2").append(`
+            <img class="band-bear" src="assets/bear-bass-band.png"/>
+            <img class="band-elephant" src="assets/elephant-drums-band.png"/>
+        `);
+        $(".streak-text").text("4");
         $(".phone2").after(`
             <div>
                 <audio autoplay loop controls style="margin: 0 auto; display: block;">
