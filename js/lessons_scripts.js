@@ -77,15 +77,9 @@ $(document).ready(function() {
         $(".sidebar-band").addClass("selected");
         $(".left-cloud").addClass("move");
         $(".right-cloud").addClass("move");
-        if (sessionStorage.getItem("completed") == "true") {
-            setTimeout(() => {
-                location.href = 'band.html';
-            }, 600);
-        } else {
-            setTimeout(() => {
-                location.href = 'two-mem-band.html';
-            }, 600);
-        }
+        setTimeout(() => {
+            location.href = 'band.html';
+        }, 600);
     });
 
 });
